@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[3],{72:function(t,n,e){"use strict";e.r(n),e.d(n,"About",function(){return l});var u=e(27),o=e(28),c=e(30),a=e(29),i=e(31),r=e(0),b=e.n(r),l=function(t){function n(){return Object(u.a)(this,n),Object(c.a)(this,Object(a.a)(n).apply(this,arguments))}return Object(i.a)(n,t),Object(o.a)(n,[{key:"componentWillMount",value:function(){document.title="Joshua Ramos | About"}},{key:"render",value:function(){return b.a.createElement("div",null,"About")}}]),n}(r.Component);n.default=l}}]);
+//# sourceMappingURL=3.fbd33564.chunk.js.map
