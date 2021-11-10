@@ -10,7 +10,7 @@ export default class App extends Component {
   render() {
     return (
       <div style={styleDiv}>
-        <h1 style={{ fontSize: "15rem" }}>NANI????</h1>
+        <h1 style={{ fontSize: "20vw" }}>NANI????</h1>
       </div>
     );
   }
