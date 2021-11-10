@@ -1,23 +1,17 @@
-import React, { Suspense, lazy } from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import React, { Component } from "react";
 
-import Navbar from "./components/Navbar";
-import NotFound from "./views/NotFound";
-
-const Home = lazy(() => import("./views/Home"));
-const About = lazy(() => import("./views/About"));
-
-export default function App() {
-	return (
-		<Router>
-			<Suspense fallback={"Loading..."}>
-				<Navbar />
-				<Switch>
-					<Route path="/" exact component={Home} />
-					<Route path="/about" component={About} />
-					<Route component={NotFound} />
-				</Switch>
-			</Suspense>
-		</Router>
-	);
+const styleDiv = {
+  display: "flex",
+  height: "100vh",
+  justifyContent: "center",
+  alignItems: "center",
+};
+export default class App extends Component {
+  render() {
+    return (
+      <div style={styleDiv}>
+        <h1 style={{ fontSize: "15rem" }}>NANI????</h1>
+      </div>
+    );
+  }
 }
