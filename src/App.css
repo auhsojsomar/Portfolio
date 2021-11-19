@@ -1,0 +1,23 @@
+div {
+  min-height: 100vh;
+  min-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background: #000;
+}
+p {
+  background-image: url("./han-so-hee.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  word-break: break-all;
+  font-size: bold;
+  line-height: 0.9;
+  font-size: 12px;
+}
