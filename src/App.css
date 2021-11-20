@@ -18,6 +18,6 @@ p {
   -webkit-text-fill-color: transparent;
   word-break: break-all;
   font-size: bold;
-  line-height: 0.9;
-  font-size: 12px;
+  line-height: .6vw;
+  font-size: .7vw;
 }
